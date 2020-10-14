@@ -7,20 +7,12 @@ import ContentView from '../../layouts/ecommerce/product-list';
 
 export const ProductListScreen = ({ navigation }): React.ReactElement => {
 
-  const renderBackAction = (): React.ReactElement => (
-    <TopNavigationAction
-      icon={ArrowIosBackIcon}
-      onPress={navigation.goBack}
-    />
-  );
-
   return (
     <SafeAreaLayout
       style={styles.container}
       insets='top'>
       <TopNavigation
         title='All Products'
-        leftControl={renderBackAction()}
       />
       <ContentView/>
     </SafeAreaLayout>
