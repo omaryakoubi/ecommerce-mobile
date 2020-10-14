@@ -1,6 +1,6 @@
 import React from 'react';
 import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
-import { EcommerceNavigator } from './ecommerce.navigator'
+import { EcommerceNavigator } from './ecommerce.navigator';
 
 /*
  * Navigation theming: https://reactnavigation.org/docs/en/next/themes.html
