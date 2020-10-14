@@ -19,7 +19,7 @@ export const TopNavigationScreen = ({ navigation }): React.ReactElement => {
       showcase={topNavigationShowcase}
       settings={topNavigationSettings}
       renderItem={renderItem}
-      onBackPress={() => navigation.goBack()}
+      // onBackPress={() => navigation.goBack()}
     />
   );
 };
